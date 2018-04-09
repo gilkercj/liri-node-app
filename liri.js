@@ -93,10 +93,14 @@ function action(x) {
                     return console.log(err);
                 }
 
-                console.log(data);
+                // console.log(data);
                 var array = data.split(' ');
-                action(array);
-               
+                
+            
+                var x = array[0];
+                userInput = array[1];
+
+                action(x);
             })
          break;
 }
