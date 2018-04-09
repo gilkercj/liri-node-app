@@ -24,7 +24,7 @@ function action(x) {
 
     switch (x) {
         case "my-tweets":
-            console.log("tweet");
+            // console.log("tweet");
             client.get('search/tweets', { q: 'Capt_Ronangus' }, function (error, tweets, response) {
                 if (error) { console.log(error) }
                 // console.log(tweets);
